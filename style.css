@@ -149,7 +149,7 @@ img{
 
 .success{
     width: 80%;
-    max-width: 300px;
+    max-width: 400px;
     background-color: white;
     border-radius: 25px;
     padding: 40px;
@@ -173,7 +173,7 @@ img{
     font-size: 15px;
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 420px){
     body{
         align-items: center;
     }
@@ -195,7 +195,7 @@ img{
     }
     .main-img{
         width: 420px;
-        margin-top: -45px;
+        margin-top: -60px;
         content: url('./assets/images/illustration-sign-up-mobile.svg');
     }
     .success{
@@ -203,6 +203,7 @@ img{
         height: 100%;
         padding-top: 200px;
         padding-bottom: 0;
+        width: 100%;
         
     }
     .success p{
@@ -213,7 +214,7 @@ img{
         width: 40px;
     }
     .success h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     #btn2{
         width: 100%;
