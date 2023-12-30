@@ -38,7 +38,7 @@ const dismisMessage = () => {
     input.classList.remove("error");
     success.style.display = "none";
     container.classList.remove("remove");
-
+    input.value = "";
 
     if (errorLabel) {
         errorLabel.remove();
